@@ -19,9 +19,13 @@ Description : A simple HTML file for form tag.
         <fieldset>
             <legend>Personal Information</legend>
             <!-- Add a label and input field for 'Name' here -->
+            <label for="'Name">Name:</label><br>
+            <input type="text" id="Name" name="Name"><br>
             <label for="email">Email:</label><br>
             <input type="email" id="email" name="email"><br>
             <!-- Add a label and input field for 'Password' here, ensure to use the correct type for password fields -->
+            <label for="'Password">Password:</label><br>
+            <input type="password" id="Password" name="Password"><br>
         </fieldset>
 
         <fieldset>
@@ -30,11 +34,24 @@ Description : A simple HTML file for form tag.
 			<input type="radio" id="male" name="gender" value="male">
             <label for="male">Male</label><br>
             <!-- Create radio buttons for 'Female', and 'Other' gender options -->
-	
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="Female">Female</label><br>
+            <input type="radio" id="Other" name="gender" value="Other">
+            <label for="Other">Other</label><br>
+
             <label for="fruits">Choose a fruit:</label><br>
-            <select id="fruits" name="fruits">
+            <select id="fruits" name="fruits" size="5">
 				<option value="apple">Apple</option>
-                <!-- Add options for various fruits like Banana, Orange, etc. (At least 10 fruits) -->
+                <option value="Orange">Orange</option>
+                <option value="Banana">Banana</option>
+                <option value="Peaches">Peaches</option>
+                <option value="Grapes">Grapes</option>
+                <option value="Pomegranate">Pomegranate</option>
+                <option value="Watermelon">Watermelon</option>
+                <option value="Cantelope">Cantelope</option>
+                <option value="Strawberry">Strawberry</option>
+                <option value="Kiwi">Kiwi</option>
+                <option value="Mango">Mango</option>
             </select><br>
 			<!-- Add some attributes to select tag that changes it from a drop menu to a scrollable list.-->
         </fieldset>
