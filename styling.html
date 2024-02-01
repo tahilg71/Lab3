@@ -33,12 +33,11 @@ Description : Learning CSS.
         
         .inline-demo {
             /*Change the display to see all elements of this type in a line.*/
-            display: inline;
+            display: inline-block;
             margin: 15px;
         }
 
         .block-demo {
-            display: inline-flex;
             text-align: center;
             /*Ensure .block-demo centers its text.*/
         }
@@ -54,19 +53,19 @@ Description : Learning CSS.
             Add CSS that I stick the first child to the left side of the screen.
             */
             color: red;
-            text-align:left;
+            float: left;
             
         }
 
         .block-demo > .inline-demo:nth-child(2) {            
             color: blue;
-            text-align:center;
+            float: center;
         }
 
         /* Add your css for the thrid child here. */
         .block-demo > .inline-demo:nth-child(3) {            
             color: green;
-            text-align:right;
+            float: right;
         }
 
 
